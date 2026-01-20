@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#2563EB">
+    
+    <!-- SEO Meta Tags -->
+    <title>PC Reparatur Schweiz - Express Service 24h | TechFix Swiss</title>
+    <meta name="description" content="Professionelle PC Reparatur in Zürich, Basel, Genf. Express 24h Service, kostenlose Diagnose, 90 Tage Garantie. Laptop, Desktop, Mac, Gaming Konsolen Reparatur.">
+    <meta name="keywords" content="PC Reparatur Zürich, Computer Reparatur Schweiz, Laptop Reparatur Basel, Mac Reparatur Genf, Gaming Konsole Reparatur, Datenrettung, Virus entfernen">
+    <meta name="author" content="TechFix Swiss">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="PC Reparatur Schweiz - Express 24h Service">
+    <meta property="og:description" content="Professionelle Computer Reparatur. Kostenlose Diagnose. Garantie 90 Tage.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_CH">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.techfix-swiss.ch">
+    
+    <!-- Fuentes con PERSONALIDAD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ComputerRepair",
+      "name": "TechFix Swiss",
+      "description": "Professionelle PC und Laptop Reparatur in der Schweiz",
+      "url": "https://www.techfix-swiss.ch",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CH"
+      },
+      "areaServed": ["Zürich", "Basel", "Genf", "Bern"],
+      "email": "swisspcservice@gmail.com"
+    }
+    </script>
+</head>
+<body>
+    <!-- Banderas de idiomas - FIJAS arriba derecha -->
+    <div class="lang-selector">
+        <button class="lang-btn active" data-lang="de" onclick="changeLanguage('de')" title="Deutsch" aria-label="Deutsch">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 3" width="32" height="24">
+                <rect width="5" height="1" fill="#000"/>
+                <rect width="5" height="1" y="1" fill="#D00"/>
+                <rect width="5" height="1" y="2" fill="#FFCE00"/>
+            </svg>
+        </button>
+        <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')" title="English" aria-label="English">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" width="32" height="24">
+                <clipPath id="t"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath>
+                <path d="M0,0 v30 h60 v-30 z" fill="#00247d"/>
+                <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+                <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#t)" stroke="#cf142b" stroke-width="4"/>
+                <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/>
+                <path d="M30,0 v30 M0,15 h60" stroke="#cf142b" stroke-width="6"/>
+            </svg>
+        </button>
+        <button class="lang-btn" data-lang="fr" onclick="changeLanguage('fr')" title="Français" aria-label="Français">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="32" height="24">
+                <rect width="1" height="2" fill="#002395"/>
+                <rect width="1" height="2" x="1" fill="#FFF"/>
+                <rect width="1" height="2" x="2" fill="#ED2939"/>
+            </svg>
+        </button>
+        <button class="lang-btn" data-lang="es" onclick="changeLanguage('es')" title="Español" aria-label="Español">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="32" height="24">
+                <rect width="3" height="2" fill="#c60b1e"/>
+                <rect width="3" height="1" y="0.5" fill="#ffc400"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Navegación -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text" data-translate="logo">TechFix Swiss</span>
+                </div>
+                
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" data-translate="nav_home">Start</a></li>
+                    <li><a href="#services" data-translate="nav_services">Services</a></li>
+                    <li><a href="#garantie" data-translate="nav_garantie">Garantie</a></li>
+                    <li><a href="#contact" class="nav-cta" data-translate="nav_contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-translate="hero_badge">
+                    <span class="badge-dot"></span>
+                    Verfügbar heute in Zürich, Basel & Genf
+                </div>
+                <h1 class="hero-title">
+                    <span data-translate="hero_title_1">PC kaputt?</span><br>
+                    <span class="highlight" data-translate="hero_title_2">Wir reparieren's noch heute.</span>
+                </h1>
+                <p class="hero-subtitle" data-translate="hero_subtitle">
+                    Express-Reparatur in 24h oder gratis. Kostenlose Diagnose, 90 Tage Garantie auf alles. 
+                    Kein Kleingedrucktes. Ehrlich.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#contact" class="btn btn-primary" data-translate="hero_btn_primary">
+                        <span>Jetzt Diagnose buchen</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                    <a href="#services" class="btn btn-secondary" data-translate="hero_btn_secondary">
+                        Services ansehen
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">24h</div>
+                        <div class="stat-label" data-translate="stat_express">Express-Service</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">90</div>
+                        <div class="stat-label" data-translate="stat_garantie">Tage Garantie</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label" data-translate="stat_kunden">Zufriedene Kunden</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem-Lösung Quick Section -->
+    <section class="problems-section">
+        <div class="container">
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-emoji">😫</div>
+                    <div class="problem-text" data-translate="problem_1">PC startet nicht mehr</div>
+                    <div class="arrow">→</div>
+                    <div class="solution-text" data-translate="solution_1">Diagnose in 1h</div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-emoji">🐌</div>
+                    <div class="problem-text" data-translate="problem_2">Extrem langsam</div>
+                    <div class="arrow">→</div>
+                    <div class="solution-text" data-translate="solution_2">SSD Upgrade</div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-emoji">🦠</div>
+                    <div class="problem-text" data-translate="problem_3">Virus / Malware</div>
+                    <div class="arrow">→</div>
+                    <div class="solution-text" data-translate="solution_3">Komplett-Reinigung</div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-emoji">💔</div>
+                    <div class="problem-text" data-translate="problem_4">Daten verloren</div>
+                    <div class="arrow">→</div>
+                    <div class="solution-text" data-translate="solution_4">Rettung möglich</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - 4 Cards alineadas SIN precios -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="services_title">Was wir reparieren</h2>
+                <p class="section-subtitle" data-translate="services_subtitle">
+                    Diagnose immer kostenlos. Reparieren alles von PCs bis Gaming-Konsolen.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1: PCs & Laptops -->
+                <div class="service-card" data-service="pcs">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon">💻</div>
+                        <div class="card-icon-bg"></div>
+                    </div>
+                    <h3 class="card-title" data-translate="service_1_title">PCs & Laptops</h3>
+                    <p class="card-description" data-translate="service_1_desc">
+                        Windows, Mac, Linux. Alle Marken: Dell, HP, Lenovo, Asus, Acer, MSI. Hardware oder Software - wir reparieren alles.
+                    </p>
+                    <ul class="card-features">
+                        <li data-translate="service_1_feat_1">✓ Desktop PCs</li>
+                        <li data-translate="service_1_feat_2">✓ Notebooks & Laptops</li>
+                        <li data-translate="service_1_feat_3">✓ MacBooks & iMacs</li>
+                        <li data-translate="service_1_feat_4">✓ Gaming PCs</li>
+                    </ul>
+                    <button class="btn-card" data-translate="btn_anfragen">Kostenlose Diagnose</button>
+                </div>
+
+                <!-- Card 2: Tablets & Smartphones -->
+                <div class="service-card" data-service="tablets">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon">📱</div>
+                        <div class="card-icon-bg"></div>
+                    </div>
+                    <h3 class="card-title" data-translate="service_2_title">Tablets & Smartphones</h3>
+                    <p class="card-description" data-translate="service_2_desc">
+                        iPad, Samsung Galaxy Tab, Surface. Bildschirm kaputt? Akku leer? Wasser drin? Wir reparieren es schnell und günstig.
+                    </p>
+                    <ul class="card-features">
+                        <li data-translate="service_2_feat_1">✓ iPads & Tablets</li>
+                        <li data-translate="service_2_feat_2">✓ Smartphones (iPhone, Samsung)</li>
+                        <li data-translate="service_2_feat_3">✓ Surface Tablets</li>
+                        <li data-translate="service_2_feat_4">✓ E-Reader (Kindle, etc.)</li>
+                    </ul>
+                    <button class="btn-card" data-translate="btn_anfragen">Kostenlose Diagnose</button>
+                </div>
+
+                <!-- Card 3: Gaming Konsolen - DESTACADA -->
+                <div class="service-card featured" data-service="gaming">
+                    <div class="featured-badge" data-translate="featured_badge">Beliebt</div>
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon">🎮</div>
+                        <div class="card-icon-bg"></div>
+                    </div>
+                    <h3 class="card-title" data-translate="service_3_title">Gaming Konsolen</h3>
+                    <p class="card-description" data-translate="service_3_desc">
+                        PlayStation 5/4, Xbox Series X/S, Nintendo Switch. Laufwerk defekt? Überhitzt? Controller kaputt? Wir sind Gaming-Spezialisten.
+                    </p>
+                    <ul class="card-features">
+                        <li data-translate="service_3_feat_1">✓ PlayStation 5 / PS4</li>
+                        <li data-translate="service_3_feat_2">✓ Xbox Series X/S / One</li>
+                        <li data-translate="service_3_feat_3">✓ Nintendo Switch</li>
+                        <li data-translate="service_3_feat_4">✓ Steam Deck / Handhelds</li>
+                    </ul>
+                    <button class="btn-card" data-translate="btn_anfragen">Kostenlose Diagnose</button>
+                </div>
+
+                <!-- Card 4: Datenrettung & Upgrade -->
+                <div class="service-card" data-service="data">
+                    <div class="card-icon-wrapper">
+                        <div class="card-icon">💾</div>
+                        <div class="card-icon-bg"></div>
+                    </div>
+                    <h3 class="card-title" data-translate="service_4_title">Datenrettung & Upgrade</h3>
+                    <p class="card-description" data-translate="service_4_desc">
+                        Festplatte tot? Daten gelöscht? Virus? Langsamer PC? Wir retten Daten und machen alte Geräte wieder schnell.
+                    </p>
+                    <ul class="card-features">
+                        <li data-translate="service_4_feat_1">✓ Datenrettung HDD/SSD</li>
+                        <li data-translate="service_4_feat_2">✓ Virus & Malware Entfernung</li>
+                        <li data-translate="service_4_feat_3">✓ SSD Upgrade & RAM</li>
+                        <li data-translate="service_4_feat_4">✓ Windows Neuinstallation</li>
+                    </ul>
+                    <button class="btn-card" data-translate="btn_anfragen">Kostenlose Diagnose</button>
+                </div>
+            </div>
+
+            <!-- Nota sutil sobre transporte (discreta) -->
+            <div class="service-note">
+                <p data-translate="service_note">
+                    <strong>Diagnose 100% gratis.</strong> Falls Sie die Reparatur nicht durchführen möchten, berechnen wir nur die Transportkosten.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Garantías -->
+    <section class="garantie" id="garantie">
+        <div class="container">
+            <h2 class="section-title" data-translate="garantie_title">Unsere Versprechen</h2>
+            <div class="garantie-grid">
+                <div class="garantie-card">
+                    <div class="garantie-icon">⚡</div>
+                    <h3 data-translate="garantie_1_title">24h Express oder Gratis</h3>
+                    <p data-translate="garantie_1_desc">Wenn wir länger als 24h brauchen, zahlen Sie nichts. Versprochen.</p>
+                </div>
+                <div class="garantie-card">
+                    <div class="garantie-icon">✓</div>
+                    <h3 data-translate="garantie_2_title">90 Tage Garantie</h3>
+                    <p data-translate="garantie_2_desc">Alle Reparaturen mit 3 Monaten Garantie. Kommt's zurück, fixen wir's gratis.</p>
+                </div>
+                <div class="garantie-card">
+                    <div class="garantie-icon">🏠</div>
+                    <h3 data-translate="garantie_3_title">Service vor Ort</h3>
+                    <p data-translate="garantie_3_desc">Zürich, Basel, Genf. Wir kommen zu Ihnen nach Hause oder ins Büro.</p>
+                </div>
+                <div class="garantie-card">
+                    <div class="garantie-icon">💰</div>
+                    <h3 data-translate="garantie_4_title">Fixpreis-Garantie</h3>
+                    <p data-translate="garantie_4_desc">Der zuerst genannte Preis gilt. Keine Überraschungen auf der Rechnung.</p>
+                </div>
+                <div class="garantie-card">
+                    <div class="garantie-icon">🔒</div>
+                    <h3 data-translate="garantie_5_title">Datenschutz 100%</h3>
+                    <p data-translate="garantie_5_desc">Ihre Daten bleiben privat. Wir schauen nur, was für die Reparatur nötig ist.</p>
+                </div>
+                <div class="garantie-card">
+                    <div class="garantie-icon">♻️</div>
+                    <h3 data-translate="garantie_6_title">Gratis Recycling</h3>
+                    <p data-translate="garantie_6_desc">Alter PC zum Entsorgen? Bringen Sie ihn mit und kriegen 10% Rabatt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto con WhatsApp QR -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title" data-translate="contact_title">Reparatur anfragen</h2>
+                    <p class="contact-text" data-translate="contact_text">
+                        Füllen Sie das Formular aus oder scannen Sie den QR-Code für WhatsApp. 
+                        Wir melden uns innerhalb von 2 Stunden.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <div class="contact-label" data-translate="contact_email_label">Email</div>
+                                <a href="mailto:swisspcservice@gmail.com">swisspcservice@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <div class="contact-label" data-translate="contact_location_label">Standorte</div>
+                                <span data-translate="contact_locations">Zürich, Basel, Genf, Bern</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="whatsapp-qr">
+                        <div class="qr-title" data-translate="qr_title">WhatsApp scannen</div>
+                        <div id="qrcode"></div>
+                        <div class="qr-subtitle" data-translate="qr_subtitle">Direkt chatten für schnelle Antwort</div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <!-- Honeypot anti-spam -->
+                        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                        
+                        <div class="form-group">
+                            <label for="name" data-translate="form_name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" data-translate="form_email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" data-translate="form_phone">Telefon *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="device" data-translate="form_device">Gerät *</label>
+                            <select id="device" name="device" required>
+                                <option value="" data-translate="form_device_select">Wählen Sie...</option>
+                                <option value="laptop" data-translate="form_device_laptop">Laptop</option>
+                                <option value="desktop" data-translate="form_device_desktop">Desktop PC</option>
+                                <option value="mac" data-translate="form_device_mac">Mac / iMac</option>
+                                <option value="tablet" data-translate="form_device_tablet">Tablet</option>
+                                <option value="gaming" data-translate="form_device_gaming">Gaming Konsole</option>
+                                <option value="smartphone" data-translate="form_device_smartphone">Smartphone</option>
+                                <option value="other" data-translate="form_device_other">Anderes</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="problem" data-translate="form_problem">Problem beschreiben *</label>
+                            <textarea id="problem" name="problem" rows="4" required></textarea>
+                        </div>
+
+                        <div class="form-message" id="formMessage"></div>
+
+                        <button type="submit" class="btn btn-primary btn-submit" data-translate="form_submit">
+                            <span>Diagnose anfragen</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">TechFix Swiss</span>
+                </div>
+                <div class="footer-text" data-translate="footer_text">
+                    Professionelle PC Reparatur in der ganzen Schweiz seit 2018
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
