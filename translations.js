@@ -14,7 +14,7 @@ const translations = {
         hero_badge: "Verfügbar heute in Zürich, Basel & Genf",
         hero_title_1: "PC kaputt?",
         hero_title_2: "Wir reparieren's noch heute.",
-        hero_subtitle: "Express-Reparatur in 24h oder gratis. Kostenlose Diagnose, faire Preise ab CHF 69, 90 Tage Garantie auf alles. Kein Kleingedrucktes. Ehrlich.",
+        hero_subtitle: "Express-Reparatur in 24h oder gratis. Kostenlose Diagnose, faire Preise, 90 Tage Garantie auf alles. Kein Kleingedrucktes. Ehrlich.",
         hero_btn_primary: "Jetzt Diagnose buchen",
         hero_btn_secondary: "Services ansehen",
         
@@ -132,7 +132,7 @@ const translations = {
         hero_badge: "Available today in Zurich, Basel & Geneva",
         hero_title_1: "PC broken?",
         hero_title_2: "We'll fix it today.",
-        hero_subtitle: "Express repair in 24h or it's free. Free diagnostics, fair prices from CHF 69, 90-day warranty on everything. No fine print. Honest.",
+        hero_subtitle: "Express repair in 24h or it's free. Free diagnostics, fair prices, 90-day warranty on everything. No fine print. Honest.",
         hero_btn_primary: "Book Free Diagnosis",
         hero_btn_secondary: "View Services",
         
@@ -248,7 +248,7 @@ const translations = {
         hero_badge: "Disponible aujourd'hui à Zurich, Bâle et Genève",
         hero_title_1: "PC cassé?",
         hero_title_2: "On le répare aujourd'hui.",
-        hero_subtitle: "Réparation express en 24h ou gratuit. Diagnostic gratuit, prix justes dès CHF 69, garantie 90 jours sur tout. Sans petites lignes. Honnête.",
+        hero_subtitle: "Réparation express en 24h ou gratuit. Diagnostic gratuit, prix justes, garantie 90 jours sur tout. Sans petites lignes. Honnête.",
         hero_btn_primary: "Réserver un diagnostic",
         hero_btn_secondary: "Voir les services",
         
@@ -370,7 +370,7 @@ const translations = {
         hero_badge: "Disponible hoy en Zúrich, Basilea y Ginebra",
         hero_title_1: "¿PC roto?",
         hero_title_2: "Lo reparamos hoy mismo.",
-        hero_subtitle: "Reparación express en 24h o gratis. Diagnóstico gratuito, precios justos desde CHF 69, garantía de 90 días en todo. Sin letra pequeña. Honesto.",
+        hero_subtitle: "Reparación express en 24h o gratis. Diagnóstico gratuito, precios justos, garantía de 90 días en todo. Sin letra pequeña. Honesto.",
         hero_btn_primary: "Reservar diagnóstico",
         hero_btn_secondary: "Ver servicios",
         
